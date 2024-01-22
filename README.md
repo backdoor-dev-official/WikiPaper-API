@@ -33,6 +33,20 @@
 
  Implementé algunas limitaciones de seguridad, como un límite de tamaño de archivo, solo se permiten archivos .txt y .md, y solo se pueden subir a la carpeta "unofficial". Igualmente, en el futuro, dentro de una semana o dos, posiblemente liberaré el código del servidor también. Para cuando el servidor público esté disponible, ya habré intentado hacer ataques informáticos al mismo para probar su seguridad. Por lo tanto, habrá un mínimo de seguridad. Estoy trabajando tambien en un cliente grafico con flutter exactamente con el modulo flet de python.
 
+#22/01/2024 | 12:12am
+
+I'm really sorry about the server outage last weekend. As you know, I had to change the operating system of the server from ArchLinux to Ubuntu Server. This caused some problems, but the documentation is now corrected and the instance that appears in the examples is now the new public instance.
+The interface is progressing well. I wanted to make it with Flet, but Flet has been giving me some headaches. It's possible that I can resolve them, but it's also possible that the first interface will be released with Tkinter.
+I'm also starting to work on the Discord server. I hope it will be ready by next week.
+Thanks for your patience and understanding.
+
+#22/01/2024 | 12:12am
+
+Lamento mucho la caída del servidor ayer. Como saben o no, tuve que cambiar el sistema operativo del servidor de ArchLinux a Ubuntu Server. Esto se debe a que ArchLinux me causó algunos problemas, pero la documentación ya está corregida y la instancia que aparece en los ejemplos ahora es la nueva instancia pública.
+La interfaz está avanzando bien. Quería hacerla con Flet, pero he tenido algunos problemas. Es posible que pueda resolverlos, pero también es posible que la primera interfaz se lance con Tkinter.
+También estoy empezando a trabajar en el servidor de Discord. Espero que esté listo para la próxima semana.
+Gracias por su paciencia y comprensión.
+
 ###DOCS EN ESPAÑOL
 
 ### Funciones principales
@@ -50,13 +64,13 @@
 Para listar los archivos en la carpeta "official":
 
 ```
-curl -X GET https://israeli-copying-genome-broken.trycloudflare.com/list?path=official
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=official
 ```
 
 Para listar los archivos en la carpeta "unofficial":
 
 ```
-curl -X GET https://israeli-copying-genome-broken.trycloudflare.com/list?path=unofficial
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=unofficial
 ```
 
 **Subir un archivo**
@@ -64,7 +78,7 @@ curl -X GET https://israeli-copying-genome-broken.trycloudflare.com/list?path=un
 Para subir un archivo llamado "example.txt" a la carpeta "unofficial":
 
 ```
-curl -F file=@example.txt https://israeli-copying-genome-broken.trycloudflare.com/upload
+curl -F file=@example.txt https://long-right-analyzed-diameter.trycloudflare.com/upload
 ```
 
 **Leer el contenido de un archivo**
@@ -72,13 +86,13 @@ curl -F file=@example.txt https://israeli-copying-genome-broken.trycloudflare.co
 Para leer el contenido del archivo "example.md" en la carpeta "official":
 
 ```
-curl -X POST https://israeli-copying-genome-broken.trycloudflare.com/file/official/example.md
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/official/example.md
 ```
 
 Para leer el contenido del archivo "example.txt" en la carpeta "unofficial":
 
 ```
-curl -X POST https://israeli-copying-genome-broken.trycloudflare.com/file/unofficial/example.txt
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/unofficial/example.txt
 ```
 
 **Ejemplos de parámetros**
@@ -92,7 +106,7 @@ El parámetro `file` es obligatorio y debe especificar el archivo que se desea s
 Si se intenta subir un archivo de un tipo no permitido, se recibirá un error HTTP 400:
 
 ```
-curl -F file=@example.exe https://israeli-copying-genome-broken.trycloudflare.com/upload
+curl -F file=@example.exe https://long-right-analyzed-diameter.trycloudflare.com/upload
 ```
 
 ```
@@ -121,13 +135,13 @@ curl -F file=@example.exe https://israeli-copying-genome-broken.trycloudflare.co
 To list the files in the "official" folder, run the following command:
 
 ```
-curl -X GET https://israeli-copying-genome-broken.trycloudflare.com/list?path=official
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=official
 ```
 
 To list the files in the "unofficial" folder, run the following command:
 
 ```
-curl -X GET https://israeli-copying-genome-broken.trycloudflare.com/list?path=unofficial
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=unofficial
 ```
 
 **Uploading a file**
@@ -135,7 +149,7 @@ curl -X GET https://israeli-copying-genome-broken.trycloudflare.com/list?path=un
 To upload the file "example.txt" to the "unofficial" folder, run the following command:
 
 ```
-curl -F file=@example.txt https://israeli-copying-genome-broken.trycloudflare.com/upload
+curl -F file=@example.txt https://long-right-analyzed-diameter.trycloudflare.com/upload
 ```
 
 **Reading the contents of a file**
@@ -143,13 +157,13 @@ curl -F file=@example.txt https://israeli-copying-genome-broken.trycloudflare.co
 To read the contents of the file "example.md" in the "official" folder, run the following command:
 
 ```
-curl -X POST https://israeli-copying-genome-broken.trycloudflare.com/file/official/example.md
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/official/example.md
 ```
 
 To read the contents of the file "example.txt" in the "unofficial" folder, run the following command:
 
 ```
-curl -X POST https://israeli-copying-genome-broken.trycloudflare.com/file/unofficial/example.txt
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/unofficial/example.txt
 ```
 
 **Parameter examples**
