@@ -38,13 +38,13 @@
 I'm really sorry about the server outage last weekend. As you know, I had to change the operating system of the server from ArchLinux to Ubuntu Server. This caused some problems, but the documentation is now corrected and the instance that appears in the examples is now the new public instance.
 The interface is progressing well. I wanted to make it with Flet, but Flet has been giving me some headaches. It's possible that I can resolve them, but it's also possible that the first interface will be released with Tkinter.
 I'm also starting to work on the Discord server. I hope it will be ready by next week.
-Thanks for your patience and understanding.
+Thanks for your patience and understanding. I forgot one thing now all the errors are in english.
 
 #22/01/2024 | 12:12 AM
 
 Lamento mucho la caída del servidor ayer. Como saben o no, tuve que cambiar el sistema operativo del servidor de ArchLinux a Ubuntu Server. Esto se debe a que ArchLinux me causó algunos problemas, pero la documentación ya está corregida y la instancia que aparece en los ejemplos ahora es la nueva instancia pública.
 La interfaz está avanzando bien. Quería hacerla con Flet, pero he tenido algunos problemas. Es posible que pueda resolverlos, pero también es posible que la primera interfaz se lance con Tkinter.
-También estoy empezando a trabajar en el servidor de Discord. Espero que esté listo para la próxima semana.
+También estoy empezando a trabajar en el servidor de Discord. Espero que esté listo para la próxima semana y me olvide una cosa que es que ahora todos los errores estan en ingles.
 Gracias por su paciencia y comprensión.
 
 ###DOCS EN ESPAÑOL
@@ -181,7 +181,5 @@ If an attempt is made to upload a file of an unsupported type, an HTTP 400 error
  "detail": "File type not allowed. Only .md or .txt files are allowed."
 }
 ```
-
- **The errors from upload are in spanish sorry i forgot to translate that in 1 week i'll translate that mensagges an the public instance will change of url.**
 
 ![Alt](https://repobeats.axiom.co/api/embed/0f49858a84160d6696cdaa3b393a68db4ba52277.svg "Repobeats analytics image")
