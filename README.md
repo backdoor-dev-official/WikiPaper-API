@@ -33,14 +33,14 @@
 
  Implementé algunas limitaciones de seguridad, como un límite de tamaño de archivo, solo se permiten archivos .txt y .md, y solo se pueden subir a la carpeta "unofficial". Igualmente, en el futuro, dentro de una semana o dos, posiblemente liberaré el código del servidor también. Para cuando el servidor público esté disponible, ya habré intentado hacer ataques informáticos al mismo para probar su seguridad. Por lo tanto, habrá un mínimo de seguridad. Estoy trabajando tambien en un cliente grafico con flutter exactamente con el modulo flet de python.
 
-#22/01/2024 | 12:12am
+#22/01/2024 | 12:12 AM
 
 I'm really sorry about the server outage last weekend. As you know, I had to change the operating system of the server from ArchLinux to Ubuntu Server. This caused some problems, but the documentation is now corrected and the instance that appears in the examples is now the new public instance.
 The interface is progressing well. I wanted to make it with Flet, but Flet has been giving me some headaches. It's possible that I can resolve them, but it's also possible that the first interface will be released with Tkinter.
 I'm also starting to work on the Discord server. I hope it will be ready by next week.
 Thanks for your patience and understanding.
 
-#22/01/2024 | 12:12am
+#22/01/2024 | 12:12 AM
 
 Lamento mucho la caída del servidor ayer. Como saben o no, tuve que cambiar el sistema operativo del servidor de ArchLinux a Ubuntu Server. Esto se debe a que ArchLinux me causó algunos problemas, pero la documentación ya está corregida y la instancia que aparece en los ejemplos ahora es la nueva instancia pública.
 La interfaz está avanzando bien. Quería hacerla con Flet, pero he tenido algunos problemas. Es posible que pueda resolverlos, pero también es posible que la primera interfaz se lance con Tkinter.
