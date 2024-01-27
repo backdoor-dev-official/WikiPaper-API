@@ -1,5 +1,24 @@
 # WikiPaper-API
 [WIP]
+# Roadmap para la siguiente actualización.
+
+- [x] Añadir soporte para multiples lenguajes (Español e Ingles por ahora) *
+- [ ] Implementar logs ***
+- [ ] interfaz de usuario grafica ****
+- [ ] interfaz de usuario de linea de comandos **
+- [ ] Mejorar mensajes de errores *
+- [ ] crear un panel para el servidor (tambien requiere recrear toda la API) *****
+
+# Roadmap for the next update
+
+- [x] Add support for multiple languages (Spanish and English for now) *
+- [ ] Implement logs ***
+- [ ] Graphical user interface ****
+- [ ] Command-line user interface **
+- [ ] Improve error messages *
+- [ ] Create an interface for the server control panel (which also requires rebuilding the API) *****
+
+# Acerca de las actualizaciones or About Updates
 
 #17/01/2024 | 03:43 AM
 
@@ -46,6 +65,14 @@ Lamento mucho la caída del servidor ayer. Como saben o no, tuve que cambiar el 
 La interfaz está avanzando bien. Quería hacerla con Flet, pero he tenido algunos problemas. Es posible que pueda resolverlos, pero también es posible que la primera interfaz se lance con Tkinter.
 También estoy empezando a trabajar en el servidor de Discord. Espero que esté listo para la próxima semana y me olvide una cosa que es que ahora todos los errores estan en ingles.
 Gracias por su paciencia y comprensión.
+
+#27/01/2024 | 03:41 PM
+
+The roadmap has been added; for now, it is not global and only shows what is planned to be added for the next update. Additionally, it has a star system indicating the difficulty. For now, the roadmap will look something like this. If for any reason it's not possible to add a feature that was planned and it wasn't too difficult, it will be prioritized for the next update. Furthermore, I had to pause working on the Discord server for now to focus on incorporating these features.
+
+#27/01/2024 | 03:41 PM
+
+El roadmap ha sido añadido; por ahora, no es global y solo muestra lo que se planea añadir para la próxima actualización. Además, cuenta con un sistema de estrellas que indica la dificultad. Por ahora, el roadmap se verá algo así. Si por alguna razón al final no es posible añadir alguna de las características que se planeaba incluir y no era muy difícil, se priorizará para ser añadida en la próxima actualización. Además, ahora mismo tuve que detenerme de trabajar en el servidor de Discord para concentrarme en la incorporación de estas características.
 
 ###DOCS EN ESPAÑOL
 
