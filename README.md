@@ -3,7 +3,7 @@
 # Roadmap para la siguiente actualización.
 
 - [x] Añadir soporte para multiples lenguajes (Español e Ingles por ahora) *
-- [ ] Implementar logs ***
+- [x] Implementar logs ***
 - [ ] interfaz de usuario grafica ****
 - [ ] interfaz de usuario de linea de comandos **
 - [ ] Mejorar mensajes de errores *
@@ -12,7 +12,7 @@
 # Roadmap for the next update
 
 - [x] Add support for multiple languages (Spanish and English for now) *
-- [ ] Implement logs ***
+- [x] Implement logs ***
 - [ ] Graphical user interface ****
 - [ ] Command-line user interface **
 - [ ] Improve error messages *
@@ -91,13 +91,13 @@ El roadmap ha sido añadido; por ahora, no es global y solo muestra lo que se pl
 Para listar los archivos en la carpeta "official":
 
 ```
-curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=official
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=official&language={lenguaje por ahora solo soporta ingles o español y se usan "es" y "en" respectivamente}
 ```
 
 Para listar los archivos en la carpeta "unofficial":
 
 ```
-curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=unofficial
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=unofficial&language={lenguaje por ahora solo soporta ingles o español y se usan "es" y "en" respectivamente}
 ```
 
 **Subir un archivo**
@@ -105,7 +105,7 @@ curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=uno
 Para subir un archivo llamado "example.txt" a la carpeta "unofficial":
 
 ```
-curl -F file=@example.txt https://long-right-analyzed-diameter.trycloudflare.com/upload
+curl -F file=@example.txt -F "language={lenguaje}" https://long-right-analyzed-diameter.trycloudflare.com/upload
 ```
 
 **Leer el contenido de un archivo**
@@ -113,13 +113,13 @@ curl -F file=@example.txt https://long-right-analyzed-diameter.trycloudflare.com
 Para leer el contenido del archivo "example.md" en la carpeta "official":
 
 ```
-curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/official/example.md
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/official/example.md?lenguage={lenguaje}
 ```
 
 Para leer el contenido del archivo "example.txt" en la carpeta "unofficial":
 
 ```
-curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/unofficial/example.txt
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/unofficial/example.txt?lenguage={lenguaje}
 ```
 
 **Ejemplos de parámetros**
@@ -133,7 +133,7 @@ El parámetro `file` es obligatorio y debe especificar el archivo que se desea s
 Si se intenta subir un archivo de un tipo no permitido, se recibirá un error HTTP 400:
 
 ```
-curl -F file=@example.exe https://long-right-analyzed-diameter.trycloudflare.com/upload
+curl -F file=@example.exe -F "language=es" https://long-right-analyzed-diameter.trycloudflare.com/upload
 ```
 
 ```
@@ -162,13 +162,13 @@ curl -F file=@example.exe https://long-right-analyzed-diameter.trycloudflare.com
 To list the files in the "official" folder, run the following command:
 
 ```
-curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=official
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=official&lenguage={here you write the lenguage but for now only support "es" or "en"}
 ```
 
 To list the files in the "unofficial" folder, run the following command:
 
 ```
-curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=unofficial
+curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=unofficial&lenguage={here you write the lenguage but for now only support "es" or "en"}
 ```
 
 **Uploading a file**
@@ -176,7 +176,7 @@ curl -X GET https://long-right-analyzed-diameter.trycloudflare.com/list?path=uno
 To upload the file "example.txt" to the "unofficial" folder, run the following command:
 
 ```
-curl -F file=@example.txt https://long-right-analyzed-diameter.trycloudflare.com/upload
+curl -F file=@example.txt -F "language=en" https://long-right-analyzed-diameter.trycloudflare.com/upload
 ```
 
 **Reading the contents of a file**
@@ -184,13 +184,13 @@ curl -F file=@example.txt https://long-right-analyzed-diameter.trycloudflare.com
 To read the contents of the file "example.md" in the "official" folder, run the following command:
 
 ```
-curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/official/example.md
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/official/example.md?lenguage={lenguage}
 ```
 
 To read the contents of the file "example.txt" in the "unofficial" folder, run the following command:
 
 ```
-curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/unofficial/example.txt
+curl -X POST https://long-right-analyzed-diameter.trycloudflare.com/file/unofficial/example.txt?lenguage={lenguage}
 ```
 
 **Parameter examples**
