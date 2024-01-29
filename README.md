@@ -74,6 +74,19 @@ The roadmap has been added; for now, it is not global and only shows what is pla
 
 El roadmap ha sido añadido; por ahora, no es global y solo muestra lo que se planea añadir para la próxima actualización. Además, cuenta con un sistema de estrellas que indica la dificultad. Por ahora, el roadmap se verá algo así. Si por alguna razón al final no es posible añadir alguna de las características que se planeaba incluir y no era muy difícil, se priorizará para ser añadida en la próxima actualización. Además, ahora mismo tuve que detenerme de trabajar en el servidor de Discord para concentrarme en la incorporación de estas características.
 
+#29/01/2024 | 01:58 PM
+
+Now, the server script versions are available, but unfortunately, I just realized that the server had been turned off. I apologize for any inconvenience this may cause. The latest version is currently implemented, as mentioned in the roadmap, and I plan to create a separate version for a control panel possibly using Flask-FastAPI. However, due to the difficulty involved, I cannot promise anything at this point, but I will try my best to make it happen. Currently, only the latest version is implemented, and there are plans to add additional features such as disabling certain functions, choosing whether to put the server into maintenance mode, modifying ports and IP addresses, etc., but these will not be available yet.
+As for the client, I am still working on implementing essential features and creating a graphical interface, but it is not ready yet. In the future, once people begin uploading files, I will upload them to a cloud and provide a link to access the same. You can ask me in Discord for the link to download the files, but for now, I am focusing mainly on implementing necessary functions and improving the client. Eventually, I hope to create a guide explaining how servers work and how to implement them in various languages, but for now, I will try my best to resolve the server issue as soon as possible and ensure that it doesn't happen again.
+
+#29/01/2024 | 01:58 PM
+
+¡Ya están disponibles las nuevas versiones del script del servidor! Desafortunadamente, el servidor se apagó sin que me diera cuenta. Me disculpo por cualquier inconveniente que esto haya causado.
+Por ahora, solo la versión "latest" tiene las funciones que están en el roadmap. Planeo hacer una versión aparte para un dashboard del servidor, probablemente con Flet-FastAPI. No prometo nada, ya que es un proyecto complicado, pero si sale, puede que esté un poco desactualizada con respecto a la versión de terminal. También planeo hacer que se puedan desactivar o activar algunas funciones, como poner el servidor en modo mantenimiento, usar túneles de cloudflared, cambiar el puerto o la IP, etc.
+El cliente gráfico está en desarrollo. Cuando la gente pueda subir archivos, los subiré a una nube. Podéis preguntarme en Discord por un enlace a la nube para acceder a los archivos.
+Por ahora, estoy trabajando principalmente en las funciones necesarias y en el cliente. En el futuro, igual hago una guía sobre cómo crear servidores.
+Voy a arreglar el problema del servidor lo antes posible e implementar algunas medidas de seguridad para que no vuelva a pasar.
+
 ###DOCS EN ESPAÑOL
 
 ### Funciones principales
