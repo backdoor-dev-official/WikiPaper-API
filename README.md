@@ -4,7 +4,7 @@
 
 - [x] Añadir soporte para multiples lenguajes (Español e Ingles por ahora) *
 - [x] Implementar logs ***
-- [ ] interfaz de usuario grafica ****
+- [X] interfaz de usuario grafica ****
 - [ ] interfaz de usuario de linea de comandos **
 - [ ] Mejorar mensajes de errores *
 - [ ] crear un panel para el servidor (tambien requiere recrear toda la API) *****
@@ -13,7 +13,7 @@
 
 - [x] Add support for multiple languages (Spanish and English for now) *
 - [x] Implement logs ***
-- [ ] Graphical user interface ****
+- [X] Graphical user interface ****
 - [ ] Command-line user interface **
 - [ ] Improve error messages *
 - [ ] Create an interface for the server control panel (which also requires rebuilding the API) *****
@@ -86,6 +86,14 @@ Por ahora, solo la versión "latest" tiene las funciones que están en el roadma
 El cliente gráfico está en desarrollo. Cuando la gente pueda subir archivos, los subiré a una nube. Podéis preguntarme en Discord por un enlace a la nube para acceder a los archivos.
 Por ahora, estoy trabajando principalmente en las funciones necesarias y en el cliente. En el futuro, igual hago una guía sobre cómo crear servidores.
 Voy a arreglar el problema del servidor lo antes posible e implementar algunas medidas de seguridad para que no vuelva a pasar.
+
+#05/02/2024 | 11:38 AM
+
+Logré implementar una interfaz gráfica con PyQt5 y también solucioné un error que surgió al añadir soporte multi-idiomas. Además, mejoré un poco los comentarios y añadí docstrings. Voy a subirlo poco después de esto a la interfaz. Por ahora, estoy trabajando en la compilación; al menos para Windows estará listo en breve. Linux posiblemente me tarde un poco más. Además, después de eso, estaré temporalmente un poco inactivo por aquí, ya que voy a trabajar en la interfaz del dashboard y reinventar la API. También me pondré a trabajar en el servidor de Discord cuando pueda.
+
+#05/02/2024 | 11:38 AM
+
+I managed to implement a graphical interface with PyQt5 and also resolved an error that occurred when adding multi-language support. Additionally, I improved the comments a bit and added docstrings. I'll upload it shortly after this to the interface. For now, I'm working on the compilation; at least for Windows, it'll be ready soon. Linux might take a bit longer. Furthermore, after that, I'll be temporarily less active here as I'll be working on the dashboard interface and reinventing the API. I'll also start working on the Discord server when I can.
 
 ###DOCS EN ESPAÑOL
 
