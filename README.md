@@ -4,7 +4,7 @@
 
 - [x] Añadir soporte para multiples lenguajes (Español e Ingles por ahora) *
 - [x] Implementar logs ***
-- [X] interfaz de usuario grafica ****
+- [x] interfaz de usuario grafica ****
 - [ ] interfaz de usuario de linea de comandos **
 - [ ] Mejorar mensajes de errores *
 - [ ] crear un panel para el servidor (tambien requiere recrear toda la API) *****
@@ -13,7 +13,7 @@
 
 - [x] Add support for multiple languages (Spanish and English for now) *
 - [x] Implement logs ***
-- [X] Graphical user interface ****
+- [x] Graphical user interface ****
 - [ ] Command-line user interface **
 - [ ] Improve error messages *
 - [ ] Create an interface for the server control panel (which also requires rebuilding the API) *****
