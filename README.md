@@ -1,5 +1,5 @@
 # WikiPaper-API
-[WIP]
+[WIP] Paused Project | Proyecto Pausado
 # Roadmap para la siguiente actualización.
 
 - [x] Añadir soporte para multiples lenguajes (Español e Ingles por ahora) *
